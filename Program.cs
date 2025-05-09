@@ -20,7 +20,12 @@ class Program
     {
         temperature[i] = random.Next(-10, 39);   //chooseing a temperature between -10 and 38 
             weatherConditions[i] = conditions[random.Next(conditions.Length)]; // so there is 7 spaces from before and it wil put rantdom weatehr conditions inside it 
+Console.WriteLine("\nWeather Forecast:\n");
+
+for (int i = 0; i < days; i++)
+{
+    Console.WriteLine($"Day {i + 1}: {weatherConditions[i]}, {temperature[i]}°C");
+}
     }
     }
 }
- System.Console.WriteLine($"the weatehr today is  {weatherConditions}  {temperature}");
