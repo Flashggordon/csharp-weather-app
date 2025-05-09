@@ -1,0 +1,14 @@
+/Users/georgegordon/repos/csharp-weather-app/bin/Debug/net9.0/csharp-weather-app
+/Users/georgegordon/repos/csharp-weather-app/bin/Debug/net9.0/csharp-weather-app.deps.json
+/Users/georgegordon/repos/csharp-weather-app/bin/Debug/net9.0/csharp-weather-app.runtimeconfig.json
+/Users/georgegordon/repos/csharp-weather-app/bin/Debug/net9.0/csharp-weather-app.dll
+/Users/georgegordon/repos/csharp-weather-app/bin/Debug/net9.0/csharp-weather-app.pdb
+/Users/georgegordon/repos/csharp-weather-app/obj/Debug/net9.0/csharp-weather-app.GeneratedMSBuildEditorConfig.editorconfig
+/Users/georgegordon/repos/csharp-weather-app/obj/Debug/net9.0/csharp-weather-app.AssemblyInfoInputs.cache
+/Users/georgegordon/repos/csharp-weather-app/obj/Debug/net9.0/csharp-weather-app.AssemblyInfo.cs
+/Users/georgegordon/repos/csharp-weather-app/obj/Debug/net9.0/csharp-weather-app.csproj.CoreCompileInputs.cache
+/Users/georgegordon/repos/csharp-weather-app/obj/Debug/net9.0/csharp-weather-app.dll
+/Users/georgegordon/repos/csharp-weather-app/obj/Debug/net9.0/refint/csharp-weather-app.dll
+/Users/georgegordon/repos/csharp-weather-app/obj/Debug/net9.0/csharp-weather-app.pdb
+/Users/georgegordon/repos/csharp-weather-app/obj/Debug/net9.0/csharp-weather-app.genruntimeconfig.cache
+/Users/georgegordon/repos/csharp-weather-app/obj/Debug/net9.0/ref/csharp-weather-app.dll
