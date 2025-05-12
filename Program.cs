@@ -25,6 +25,7 @@
 
 using System.ComponentModel;
 using System.Net;
+using System.Reflection;
 using System.Runtime.InteropServices;
 
 namespace csharp_weather_app;
@@ -43,6 +44,9 @@ string[] typeOfWorkout =  {"Running", "Cycling", "Swimming", "Boxing", "Yoga" };
 
 string[] dayOfTheWeek = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday"};
 
+int totalCalories = 0;  
+
+
 Random random  = new Random(); 
 
 
@@ -50,8 +54,11 @@ Random random  = new Random();
  {
    int randomCalories = random.Next(200, 801);
 
+   totalCalories =  randomCalories; 
 
  System.Console.WriteLine($"Today is {dayOfTheWeek[i]} i went {typeOfWorkout[i]} and i burned {randomCalories} Calories" );
+ System.Console.WriteLine($"the callories would have been {randomCalories.Max()}");
+ System.Console.WriteLine($"The total calories for the week are {totalCalories}");
  }
     }
 
