@@ -30,4 +30,23 @@ for (int i = 0; i < days; i++)
 }
     }
 
+
+// Create a variable to hold the running total of temperatures.
+
+int totalTemp = 0
+
+// Loop through the temperature array and add each day's value to that total.
+
+// After the loop, divide that total by the number of days.
+
+// Store that result in your average variable.
+
+// Output the average in a clear message.
+
+// 🧠 Things to watch for:
+// Make sure you're using the same array that stores your temperatures.
+
+// Use the array's .Length so the logic works for any number of days.
+
+// Ensure you're doing the division after the loop, not inside it.
 }
