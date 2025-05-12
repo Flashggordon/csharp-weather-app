@@ -1,14 +1,4 @@
-﻿using System.ComponentModel;
-using System.Net;
-using System.Runtime.InteropServices;
-
-namespace csharp_weather_app;
-
-class Program
-{
-    static void Main(string[] args)
-    {
-//         Console.WriteLine("Enter the amont of days you want to simulate"); //user intputs 7
+﻿//         Console.WriteLine("Enter the amont of days you want to simulate"); //user intputs 7
 //         int days = int.Parse(Console.ReadLine()); //so now days is is what the user input withch is 7 
 
 //         int[] temperature = new int[days]; //creating a memory slot with 7 spaces called temperature 
@@ -33,27 +23,37 @@ class Program
 
 
 
+using System.ComponentModel;
+using System.Net;
+using System.Runtime.InteropServices;
 
+namespace csharp_weather_app;
 
-
-
-
-
-
-
+class Program
+{
+    static void Main(string[] args)
+    {
 
 
 Console.WriteLine("How many days of workouts would you like to simulate?");
 
 int daysOfEx = int.Parse(Console.ReadLine());
 
-string[] caloriesBurned  new string {"Monday" }
-}
+string[] typeOfWorkout =  {"Running", "Cycling", "Swimming", "Boxing", "Yoga" };
 
-Random random new Random(); 
+string[] dayOfTheWeek = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday"};
 
- for (int i = 0; )
+Random random  = new Random(); 
 
+
+ for (int i = 0; i < daysOfEx; i++)
+ {
+   int randomCalories = random.Next(200, 801);
+
+
+ System.Console.WriteLine($"Today is {dayOfTheWeek[i]} i went {typeOfWorkout[i]} and i burned {randomCalories} Calories" );
+ }
+    }
 
 
 
