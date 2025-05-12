@@ -54,12 +54,12 @@ Random random  = new Random();
  {
    int randomCalories = random.Next(200, 801);
 
-   totalCalories =  randomCalories; 
+   totalCalories +=  randomCalories; 
 
  System.Console.WriteLine($"Today is {dayOfTheWeek[i]} i went {typeOfWorkout[i]} and i burned {randomCalories} Calories" );
- System.Console.WriteLine($"the callories would have been {randomCalories.Max()}");
- System.Console.WriteLine($"The total calories for the week are {totalCalories}");
+//  System.Console.WriteLine($"the callories would have been {randomCalories.Max()}");
  }
+ System.Console.WriteLine($"The total calories for the week are {totalCalories}");
     }
 
 
