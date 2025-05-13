@@ -34,28 +34,41 @@ class Program
 {
     static void Main(string[] args)
     {
+        double[] tempratureRange = {14.4, 22.4, 60, 40, 50};
+        double calculateAvrage = CalculateAverage(tempratureRange);
+        PrintAverage(calculateAvrage); 
 
-double addTemp = 0; 
-double CalculateAverage = 0; 
-// Create a simple C# program that calculates the average temperature from an array of temperatures. The program should:
- double[] tempratureRange = {10, 20, 30, 40, 50};
+    }
 
-// Declare a method CalculateAverage that takes an array of doubles as a parameter. 
-for (int i = 0; i < tempratureRange.Length; i++)
+
+
+    
+ static double CalculateAverage(double[] tempratureRange) 
+ {
+    double addTemp = 0; 
+
+    for (int i = 0; i < tempratureRange.Length; i++)
+
 {
-// Implement the method to calculate the average of the temperatures in the array.
    addTemp += tempratureRange[i]; 
 }
-// Declare a method PrintAverage that takes an array of doubles as a parameter.
-CalculateAverage = addTemp / tempratureRange; 
+    
+return addTemp / tempratureRange.Length; 
 
-// Implement the method to call CalculateAverage and print the result to the console.
-System.Console.WriteLine($"The average temperature is: {CalculateAverage}");
-// Alert!
+ 
+ }
 
-// The result of execution for the default string should be:
+ static void PrintAverage(double calculateAvrage)
 
-// "The average temperature is: 23.5"
+ 
+ {
+     System.Console.WriteLine($"The average temperature is: {calculateAvrage}");
+
+ }
+ 
 
 }
-}
+    
+
+
+
