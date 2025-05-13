@@ -35,36 +35,27 @@ class Program
     static void Main(string[] args)
     {
 
+double addTemp = 0; 
+double CalculateAverage = 0; 
+// Create a simple C# program that calculates the average temperature from an array of temperatures. The program should:
+ double[] tempratureRange = {10, 20, 30, 40, 50};
 
-Console.WriteLine("How many days of workouts would you like to simulate?");
+// Declare a method CalculateAverage that takes an array of doubles as a parameter. 
+for (int i = 0; i < tempratureRange.Length; i++)
+{
+// Implement the method to calculate the average of the temperatures in the array.
+   addTemp += tempratureRange[i]; 
+}
+// Declare a method PrintAverage that takes an array of doubles as a parameter.
+CalculateAverage = addTemp / tempratureRange; 
 
-int daysOfEx = int.Parse(Console.ReadLine());
+// Implement the method to call CalculateAverage and print the result to the console.
+System.Console.WriteLine($"The average temperature is: {CalculateAverage}");
+// Alert!
 
-string[] typeOfWorkout =  {"Running", "Cycling", "Swimming", "Boxing", "Yoga" };
+// The result of execution for the default string should be:
 
-string[] dayOfTheWeek = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday"};
+// "The average temperature is: 23.5"
 
-int totalCalories = 0;  
-
-
-Random random  = new Random(); 
-
-
- for (int i = 0; i < daysOfEx; i++)
- {
-   int randomCalories = random.Next(200, 801);
-
-   totalCalories +=  randomCalories; 
-
- System.Console.WriteLine($"Today is {dayOfTheWeek[i]} i went {typeOfWorkout[i]} and i burned {randomCalories} Calories" );
-//  System.Console.WriteLine($"the callories would have been {randomCalories.Max()}");
- }
- System.Console.WriteLine($"The total calories for the week are {totalCalories}");
-    }
-
-
-
-
-
-
+}
 }
